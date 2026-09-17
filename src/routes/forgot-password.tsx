@@ -10,10 +10,10 @@ import { authApi } from "@/lib/mockApi";
 export const Route = createFileRoute("/forgot-password")({
   head: () => ({
     meta: [
-      { title: "Reset password — RocketKash" },
-      { name: "description", content: "Reset your RocketKash password using an SMS one-time code sent to your phone." },
-      { property: "og:title", content: "Reset password — RocketKash" },
-      { property: "og:description", content: "Reset your RocketKash password using an SMS one-time code sent to your phone." },
+      { title: "Reset password — PesaProfit" },
+      { name: "description", content: "Reset your PesaProfit password using an SMS one-time code sent to your phone." },
+      { property: "og:title", content: "Reset password — PesaProfit" },
+      { property: "og:description", content: "Reset your PesaProfit password using an SMS one-time code sent to your phone." },
     ],
   }),
   component: ForgotPasswordPage,

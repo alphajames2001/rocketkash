@@ -74,18 +74,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "RocketKash — Crash Betting with M-Pesa" },
+      { title: "PesaProfit — Crash Betting with M-Pesa" },
       {
         name: "description",
         content:
-          "RocketKash is a crash betting game for Kenya with instant M-Pesa deposits and withdrawals.",
+          "PesaProfit is a crash betting game for Kenya with instant M-Pesa deposits and withdrawals.",
       },
-      { name: "author", content: "RocketKash" },
-      { property: "og:title", content: "RocketKash — Crash Betting with M-Pesa" },
+      { name: "author", content: "PesaProfit" },
+      { property: "og:title", content: "PesaProfit — Crash Betting with M-Pesa" },
       {
         property: "og:description",
         content:
-          "RocketKash is a crash betting game for Kenya with instant M-Pesa deposits and withdrawals.",
+          "PesaProfit is a crash betting game for Kenya with instant M-Pesa deposits and withdrawals.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

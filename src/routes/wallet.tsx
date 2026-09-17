@@ -21,13 +21,13 @@ import { cn, isValidKenyanLocal, localPart } from "@/lib/utils";
 export const Route = createFileRoute("/wallet")({
   head: () => ({
     meta: [
-      { title: "Wallet — RocketKash M-Pesa deposits & withdrawals" },
+      { title: "Wallet — PesaProfit M-Pesa deposits & withdrawals" },
       {
         name: "description",
         content:
-          "Top up via M-Pesa STK push, withdraw to your phone, and review your RocketKash transaction history.",
+          "Top up via M-Pesa STK push, withdraw to your phone, and review your PesaProfit transaction history.",
       },
-      { property: "og:title", content: "Wallet — RocketKash M-Pesa deposits & withdrawals" },
+      { property: "og:title", content: "Wallet — PesaProfit M-Pesa deposits & withdrawals" },
       {
         property: "og:description",
         content: "Top up via M-Pesa STK push, withdraw to your phone, and review your transaction history.",

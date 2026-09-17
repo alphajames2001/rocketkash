@@ -14,13 +14,13 @@ import { cn, isValidKenyanLocal, localPart } from "@/lib/utils";
 export const Route = createFileRoute("/profile")({
   head: () => ({
     meta: [
-      { title: "Profile & safer play — RocketKash" },
+      { title: "Profile & safer play — PesaProfit" },
       {
         name: "description",
         content:
-          "Manage your RocketKash account, switch between demo and real mode, and set deposit limits, session reminders and self-exclusion.",
+          "Manage your PesaProfit account, switch between demo and real mode, and set deposit limits, session reminders and self-exclusion.",
       },
-      { property: "og:title", content: "Profile & safer play — RocketKash" },
+      { property: "og:title", content: "Profile & safer play — PesaProfit" },
       {
         property: "og:description",
         content: "Manage your account, switch demo/real mode and set responsible-gambling controls.",

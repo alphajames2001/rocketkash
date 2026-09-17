@@ -10,17 +10,17 @@ import { authApi } from "@/lib/mockApi";
 export const Route = createFileRoute("/login")({
   head: () => ({
     meta: [
-      { title: "Log in — RocketKash" },
+      { title: "Log in — PesaProfit" },
       {
         name: "description",
         content:
-          "Sign in to your RocketKash account to play crash and manage your M-Pesa wallet.",
+          "Sign in to your PesaProfit account to play crash and manage your M-Pesa wallet.",
       },
-      { property: "og:title", content: "Log in — RocketKash" },
+      { property: "og:title", content: "Log in — PesaProfit" },
       {
         property: "og:description",
         content:
-          "Sign in to your RocketKash account to play crash and manage your M-Pesa wallet.",
+          "Sign in to your PesaProfit account to play crash and manage your M-Pesa wallet.",
       },
     ],
   }),
@@ -63,7 +63,7 @@ function LoginPage() {
       subtitle="Log in with your email address."
       footer={
         <>
-          New to RocketKash?{" "}
+          New to PesaProfit?{" "}
           <Link to="/signup" className="font-semibold text-primary hover:underline">
             Create an account
           </Link>

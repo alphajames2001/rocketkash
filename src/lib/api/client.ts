@@ -21,21 +21,21 @@ class ApiClient {
 
   constructor() {
     if (typeof window !== 'undefined') {
-      this.token = localStorage.getItem('dotpesa_token');
+      this.token = localStorage.getItem('pesaprofit_token');
     }
   }
 
   setToken(token: string) {
     this.token = token;
     if (typeof window !== 'undefined') {
-      localStorage.setItem('dotpesa_token', token);
+      localStorage.setItem('pesaprofit_token', token);
     }
   }
 
   clearToken() {
     this.token = null;
     if (typeof window !== 'undefined') {
-      localStorage.removeItem('dotpesa_token');
+      localStorage.removeItem('pesaprofit_token');
     }
   }
 

@@ -1,0 +1,11 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rocket/flame icon -->
+  <g transform="translate(20, 30)">
+    <path d="M60 10C45 40 50 70 70 85C50 70 35 75 20 60C35 75 30 100 50 120C30 100 10 95 0 70C10 95 25 130 60 140C25 130 5 110 0 80C5 110 20 140 60 150" fill="#F98D34"/>
+    <path d="M60 40C50 60 53 78 65 88C53 78 44 80 35 72C44 80 40 95 52 108C40 95 28 92 22 76C28 92 38 112 60 120C38 112 26 100 22 82" fill="#EF6644"/>
+    <path d="M60 60C54 72 55 82 62 88C55 82 50 84 46 78C50 84 48 92 55 100C48 92 42 90 39 82C42 90 48 102 60 108C48 102 40 95 39 85" fill="#EF4444"/>
+    <circle cx="60" cy="75" r="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+  </g>
+  <!-- PESAPROFIT text -->
+  <text x="130" y="130" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="100" font-weight="700" fill="white" letter-spacing="-2">PesaProfit</text>
+</svg>

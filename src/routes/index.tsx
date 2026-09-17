@@ -10,13 +10,13 @@ import { useGame, useMockState } from "@/lib/hooks";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RocketKash — Crash Betting with M-Pesa" },
+      { title: "PesaProfit — Crash Betting with M-Pesa" },
       {
         name: "description",
         content:
-          "Play RocketKash crash: watch the multiplier climb, cash out before it crashes. Instant M-Pesa deposits and withdrawals in Kenya.",
+          "Play PesaProfit crash: watch the multiplier climb, cash out before it crashes. Instant M-Pesa deposits and withdrawals in Kenya.",
       },
-      { property: "og:title", content: "RocketKash — Crash Betting with M-Pesa" },
+      { property: "og:title", content: "PesaProfit — Crash Betting with M-Pesa" },
       {
         property: "og:description",
         content:

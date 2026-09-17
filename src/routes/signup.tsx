@@ -12,17 +12,17 @@ import { isValidKenyanLocal } from "@/lib/utils";
 export const Route = createFileRoute("/signup")({
   head: () => ({
     meta: [
-      { title: "Create account — RocketKash" },
+      { title: "Create account — PesaProfit" },
       {
         name: "description",
         content:
-          "Open a RocketKash account in seconds and start playing crash with M-Pesa deposits.",
+          "Open a PesaProfit account in seconds and start playing crash with M-Pesa deposits.",
       },
-      { property: "og:title", content: "Create account — RocketKash" },
+      { property: "og:title", content: "Create account — PesaProfit" },
       {
         property: "og:description",
         content:
-          "Open a RocketKash account in seconds and start playing crash with M-Pesa deposits.",
+          "Open a PesaProfit account in seconds and start playing crash with M-Pesa deposits.",
       },
     ],
   }),

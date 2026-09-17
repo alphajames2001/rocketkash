@@ -267,7 +267,7 @@ export const walletApi = {
 
   setMode(mode: Mode) {
     state.mode = mode;
-    if (typeof window !== 'undefined') localStorage.setItem('dotpesa_mode', mode);
+    if (typeof window !== 'undefined') localStorage.setItem('pesaprofit_mode', mode);
     notifyListeners();
   },
 
@@ -323,7 +323,7 @@ export const profileApi = {
   updateResponsible(patch: Partial<AppState['responsible']>) {
     state.responsible = { ...state.responsible, ...patch };
     if (typeof window !== 'undefined') {
-      localStorage.setItem('dotpesa_responsible', JSON.stringify(state.responsible));
+      localStorage.setItem('pesaprofit_responsible', JSON.stringify(state.responsible));
     }
     notifyListeners();
   },
@@ -345,11 +345,11 @@ function notifyListeners() {
 
 export function getState() {
   if (typeof window !== 'undefined') {
-    const savedMode = localStorage.getItem('dotpesa_mode') as Mode | null;
+    const savedMode = localStorage.getItem('pesaprofit_mode') as Mode | null;
     if (savedMode && (savedMode === 'demo' || savedMode === 'real')) {
       state.mode = savedMode;
     }
-    const savedResponsible = localStorage.getItem('dotpesa_responsible');
+    const savedResponsible = localStorage.getItem('pesaprofit_responsible');
     if (savedResponsible) {
       try {
         state.responsible = JSON.parse(savedResponsible);
